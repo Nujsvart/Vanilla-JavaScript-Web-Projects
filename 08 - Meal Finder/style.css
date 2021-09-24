@@ -3,8 +3,8 @@
 }
 
 body {
-  background: #2d2013;
-  color: #fff;
+  background: #5b67a2;
+  color: #f8f9fc;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
@@ -25,15 +25,18 @@ body {
 
 input,
 button {
-  border: 1px solid #dedede;
+  background-color: #f8f9fc;
+  color: #545051;
+  border: none;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   font-size: 14px;
   padding: 8px 10px;
   margin: 0;
+  outline: none;
 }
 
-input[type='text'] {
+input[type="text"] {
   width: 300px;
 }
 
@@ -70,7 +73,7 @@ input[type='text'] {
 .meal img {
   width: 100%;
   height: 100%;
-  border: 4px #fff solid;
+  border: 4px #F8F9FC solid;
   border-radius: 2px;
 }
 
@@ -80,7 +83,7 @@ input[type='text'] {
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,7 +103,7 @@ input[type='text'] {
 .single-meal img {
   width: 300px;
   margin: 15px;
-  border: 4px #fff solid;
+  border: 4px #F8F9FC solid;
   border-radius: 2px;
 }
 
@@ -125,7 +128,7 @@ input[type='text'] {
 .single-meal ul li {
   border: 1px solid #ededed;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #F8F9FC;
   display: inline-block;
   color: #2d2013;
   font-size: 12px;
@@ -150,7 +153,7 @@ input[type='text'] {
   }
 }
 @media (max-width: 500px) {
-  input[type='text'] {
+  input[type="text"] {
     width: 100%;
   }
 
@@ -162,4 +165,8 @@ input[type='text'] {
     height: 300px;
     width: 300px;
   }
+}
+
+.uyari {
+  margin-top: 1rem;
 }
