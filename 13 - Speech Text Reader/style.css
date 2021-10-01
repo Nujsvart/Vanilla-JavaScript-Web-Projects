@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://fonts.googleapis.com/css?family=Lato");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: #ffefea;
-  font-family: 'Lato', sans-serif;
+  background: #353849;
+  font-family: "Lato", sans-serif;
   min-height: 100vh;
   margin: 0;
 }
 
 h1 {
   text-align: center;
+  color: #ffffff;
 }
 
 .container {
@@ -22,10 +23,10 @@ h1 {
 
 .btn {
   cursor: pointer;
-  background-color: darksalmon;
+  background-color: #03cc90;
   border: 0;
   border-radius: 4px;
-  color: #fff;
+  color: #232734;
   font-size: 16px;
   padding: 8px;
 }
@@ -51,7 +52,7 @@ select:focus {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -800px);
-  background-color: #333;
+  background-color: #353849d7;
   color: #fff;
   padding: 20px;
   border-radius: 5px;
@@ -63,7 +64,7 @@ select:focus {
 }
 
 .text-box select {
-  background-color: darksalmon;
+  background-color: #3f4354;
   border: 0;
   color: #fff;
   font-size: 12px;
@@ -83,6 +84,7 @@ select:focus {
 
 .text-box .btn {
   width: 100%;
+  font-weight: 600;
 }
 
 .text-box .close {
@@ -108,7 +110,7 @@ main {
 }
 
 .box.active {
-  box-shadow: 0 0 10px 5px darksalmon;
+  box-shadow: 0 0 10px 5px #03cc90;
 }
 
 .box img {
@@ -118,7 +120,7 @@ main {
 }
 
 .box .info {
-  background-color: darksalmon;
+  background-color: #232734;
   color: #fff;
   font-size: 18px;
   letter-spacing: 1px;
